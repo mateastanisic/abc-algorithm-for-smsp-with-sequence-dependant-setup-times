@@ -1,6 +1,7 @@
 # abc-algorithm-for-smsp-with-sequence-dependant-setup-times
 
 Opis problema
+
 ● Skup N nezavisnih poslova {J1,J2,…,JN} koji se trebaju izvršiti na nekom stroju bez prekida
 
 ● Za svaki posao Ji zadani su nam:
