@@ -1,0 +1,20 @@
+Files PROB551.TXT through PROB858.TXT contain the data for the 32 test
+problems used in table 7 of the Gagne, Price and Gravel 2002_Journal of 
+the Operational Research Society_ paper.  The first two numeral in the file 
+name signifies the problem size (55 -> 55 jobs, ..., 85 -> 85 jobs).  The 
+files are plain ASCII text, with columns separated by spaces and/or 
+end-of-line codes.
+
+The first record of each file (one line) contains the number of jobs (n), two
+zero (could be ignored - B&B results are not available), the problem file name et the problem 
+caracteristics (processing time variance, tardiness factor and due date range).  
+The next line, or group of lines, contains the n processing times.  The following 
+line, or group of lines, contains the n due dates.  The due dates are a monotone 
+sequence (jobs were indexed in earliest due date order); a negative due date signifies 
+a job already overdue.
+
+The next group of lines gives the setup times as an n+1 x n matrix, the row
+indexed by the current state, the column indexed by the next state.  The
+first row, row 0, contains setup times coming out of the initial state of
+the processor.
+
