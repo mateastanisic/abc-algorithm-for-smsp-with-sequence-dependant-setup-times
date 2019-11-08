@@ -28,4 +28,5 @@ Rezultate smo usporedili sa algoritmima:
      - Mravlji algoritam
      - Hibrid tabu search / vns
      - Hibrid simulirano kaljenje / tabu search
+     
 
