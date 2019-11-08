@@ -21,12 +21,17 @@ minimalno
 
 
 Za rješavanje problema koristili smo:
+
      - Pčelinji algoritam
 
 Rezultate smo usporedili sa algoritmima:
+
      - RSPI
+     
      - Mravlji algoritam
+     
      - Hibrid tabu search / vns
+     
      - Hibrid simulirano kaljenje / tabu search
      
 
